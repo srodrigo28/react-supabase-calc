@@ -134,9 +134,9 @@ export default function App() {
           className="text-center mb-8"
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, ease: "easeOut" }}
+          transition={{ duration: 0.9, ease: "easeOut" }}
         >
-          <div className="flex items-center justify-center gap-3 mb-8  md:mt-10">
+          <div className="flex items-center justify-center gap-3 mb-3  md:mt-0">
             <motion.div
               className="p-3 bg-gradient-to-r from-violet-500 to-purple-600 rounded-2xl shadow-lg"
               whileHover={{ scale: 1.05, rotate: 5 }}
@@ -148,7 +148,8 @@ export default function App() {
           </div>
 
           <motion.div
-            className="bg-gradient-to-r from-slate-800/80 to-slate-700/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-600/50 shadow-xl"
+            className="bg-gradient-to-r from-slate-800/80 to-slate-700/80 backdrop-blur-sm p-6 
+            rounded-2xl border border-slate-600/50 shadow-xl"
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: 0.2 }}
